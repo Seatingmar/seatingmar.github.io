@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #04272c;
+    color: #333;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 1.8em;
+}
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+color: aliceblue;
+font-weight: 400;
+font-size: 2em;
+}
+/*encabezado*/
+h6 {
+font-family: 'Playfair Display', serif;
+color: aliceblue;
+font-weight: 700; /*negrita*/
+font-size: 2.5em;
+margin: 50px;
+}
+
+nav ul li a {
+    color: #1acec5;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700;
+    padding: 5px;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400; 
+    font-size: 1.5em;
+    color: #b0b0b0;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+header {
+    background: #064b66;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #1acec5;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.item-group {
+    margin-bottom: 40px;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #053346;
+}
+
+/* Estilos para el texto del ítem */
+.item-text {
+    width: 60%; /* El texto ocupará el 60% del ancho */
+    color: #b0b0b0;
+}
+
+/* Estilos para la imagen del ítem */
+.item-image {
+    width: 35%; /* La imagen ocupará el 35% del ancho */
+}
+
+.item-image img {
+    max-width: 100%; /* La imagen se ajusta dentro del contenedor */
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #064b66;
+    color: #ffffff;
+}
+
+.scrollUp {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #064b66; 
+    color: white; 
+    padding: 10px 15px; 
+    font-size: 18px;
+    border-radius: 5px;
+    display: none; 
+    cursor: pointer; 
+    text-decoration: none; 
+    z-index: 1000;
+}
+
+.scrollUp:hover {
+    background-color: #053b50; 
+}

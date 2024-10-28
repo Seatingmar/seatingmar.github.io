@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undersea Eating: Depths of Reflection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h6>Undersea Eating: Depths of Reflection</h6>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="#mecanicas">Mecánicas</a></li>
+                <li><a href="Controles.html">Controles</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="encuesta.html">Encuesta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>!! Bienvenidx al juego !!</h1>
+        <img src="medusa.jpg" alt="Escena del juego" class="responsive" height="430px" width="500px">
+        <h3>Explora el mundo submarino y descubre tu verdadero yo.</h3>
+        <button onclick="alert('¡Pronto disponible para descargar!')">Descargar</button>
+    </section>
+
+    <section id="historia">
+        <h1>✶ Historia ✶</h1>
+        <img src="fondo.jpg" alt="Aqua y Luz" class="responsive" height="500" width="400">
+        <h3>Acompaña a Aqua en su viaje de autoaceptación y descubre los secretos del océano.</h3>
+    </section>
+
+    <section id="mecanicas">
+        <h1>✶ Mecánicas de Juego ✶</h1>
+        <img src="aqua.jpg" alt="Mecánicas del juego" class="responsive" height="500" width="600">
+        <h3>Aprende a nadar, recolectar fragmentos de luz y enfrentar tus miedos.</h3>
+        <h2>★ Habitación Segura: </h2>
+<h3>Un espacio personalizable para tu personaje que ofrece momentos de paz y relajación. La habitación puede cambiar de apariencia, permitiéndote disfrutar del apartado sonoro mientras descansas del juego.</h3>
+<h2>★ Interacción con NPCs</h2>
+<h3>Las decisiones que tomes al hablar con los personajes que habitan el mundo tendrán un impacto directo en el desarrollo de la historia, la evolución del juego y en cómo se transforma tu habitación segura.</h3>
+<h2>★ Personalización del Personaje: </h2>
+<h3>Puedes elegir el género de tu personaje, permitiendo una experiencia de juego más personalizada.</h3>
+<h2>★ Exploración e Interacción:</h2>
+<h3> Interactúa con el entorno para recolectar <a href="items.html">items</a> esparcidos por el mundo, que te ayudarán en tu aventura submarina.</h3>
+    
+<h1>⁑ Apartado Sonoro</h1>
+<h3>El diseño sonoro busca sumergirte por completo en el mundo submarino. Los efectos de sonido y la música están cuidadosamente creados para dar la sensación de estar bajo el agua, con ecos y profundos sonidos envolventes que reflejan la inmensidad del océano. A medida que exploras, también sentirás momentos de tensión que evocan la sensación de ahogamiento, aumentando la inmersión en este entorno misterioso y desafiante.</h3>
+<audio controls>
+    <source src="audioprueba.m4a" type="audio/mpeg">
+</audio>
+
+
+</section>
+
+
+    
+    <section id="comunidad">
+        <h1>✶ Comunidad ✶</h1>
+        <img src="medusasjuntas.jpg" alt="medudas junticas" height="400" width="800">
+        <h3>Únete a nuestros foros y comparte tus experiencias con otros jugadores.</h3>
+        <a href="https://www.instagram.com/eating435/" target="_blank"><img src="Instalogo.png" alt="Instagram"width="150px" height="150px"></a>
+    </section>
+
+    <section id="noticias">
+        <h1>✶ Noticias ✶</h1>
+        <img src="delfinxd.jpg" alt="delfin" height="400" width="750">
+        <h3>!! Estén atentos para las últimas actualizaciones sobre el juego. !!</h3>
+        <audio controls>
+            <source src="AhaTik_Tiptoe Through The Tulips_1726695411586.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section id="contacto">
+        <h1>✶ Contacto ✶</h1>
+    <h3>!! Coloca aquí tus datos y te contactaremos lo más pronto posible !! :3</h3>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <a href="#top" id="scrollUp" class="scrollUp">Inicio ↑</a>
+    <script>
+      
+        var scrollUp = document.getElementById("scrollUp");
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollUp.style.display = "block";
+            } else {
+                scrollUp.style.display = "none";
+            }
+        };
+    </script>
+
+
+    <footer>
+        <p>&copy; 2024 Undersea Eating. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

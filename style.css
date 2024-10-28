@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #04272c;
+    color: #333;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 1.8em;
+}
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+color: aliceblue;
+font-weight: 400;
+font-size: 2em;
+}
+/*encabezado*/
+h6 {
+font-family: 'Playfair Display', serif;
+color: aliceblue;
+font-weight: 700; /*negrita*/
+font-size: 2.5em;
+margin: 50px;
+}
+nav ul li a {
+    color: #1acec5;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700;
+    padding: 5px;
+}
+
+#enlacemenu {
+    font-size: 1.5em; 
+    font-family: 'Playfair Display', serif; 
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400; 
+    font-size: 1.5em;
+    color: #b0b0b0;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+header {
+    background: #064b66;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #1acec5;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #38e3e9;
+    color: #002722;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8f00;
+}
+
+form label {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff; 
+    font-size: 1.2em; 
+    margin-bottom: 8px;
+}
+
+/* Cambia el color del texto dentro de los campos de entrada */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    font-family: 'Merriweather', serif; 
+    color: #ffffff; 
+    background-color: #333333; 
+    border: 1px solid #555555; /*estilo del borde*/
+    padding: 10px;
+    font-size: 1em;
+    width: 100%; /*para q el cuadro se vea toda la pantalla*/
+    box-sizing: border-box;
+}
+
+/*boton enbiado*/
+form button {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff; 
+    background-color: #1a73e8; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/*cuando el mouse se coloque encima cambie de color */
+form button:hover {
+    background-color: #145bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #064b66;
+    color: #ffffff;
+}
+
+#enlaceformulario {
+    color: #1d928c;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+#enlaceformulario:hover {
+    color: #095d7e; 
+    text-decoration: underline; /*subrayar al colocar encima el mouse*/
+}
+
+.scrollUp {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #064b66; 
+    color: white; 
+    padding: 10px 15px; 
+    font-size: 18px;
+    border-radius: 5px;
+    display: none; 
+    cursor: pointer; 
+    text-decoration: none; 
+    z-index: 1000;
+}
+
+.scrollUp:hover {
+    background-color: #053b50; 
+}
+
+
+
+/*para q el menu salga pa bajo
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none; /* Oculto por defecto 
+    position: absolute;
+    background-color: #074640;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(6, 136, 136);
+}
+/*color del menu desplegado
+.dropdown-content a:hover {
+    background-color: #179fdf;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+*/

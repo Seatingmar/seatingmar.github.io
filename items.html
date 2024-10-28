@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos Mágicos</title>
+    <link rel="stylesheet" href="estiloitems.css">
+</head>
+<body>
+
+    <header>
+        <h6>OBJETOS MÁGICOS</h6>
+        <nav>
+            <ul>
+                <li><a href="Index.html" id="enlacemenu">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Objetos Mágicos</h1>
+    <div class="item-group">
+
+        <div class="item-container">
+            <div class="item-text">
+                <h2>Jarrón de polvo de hueso</h2>
+                <h3>Jarrón de polvo de hueso,
+                    se encuentra a las orillas
+                    esto sirve para cuando quieras 
+                    viajar al otro universo</h3>
+            </div>
+            <div class="item-image">
+                <img src="concha.jpg" alt="Jarrón de polvo de hueso">
+            </div>
+        </div>
+
+        <div class="item-container">
+            <div class="item-text">
+                <h2>Coral</h2>
+                <h3>Puedes llamar a tu
+                    fiel amigo (el perro marino)
+                    el cual te ayudará en caso de 
+                    estar apunto de morir.</h3>
+            </div>
+            <div class="item-image">
+                <img src="coral.jpg" alt="coral">
+            </div>
+        </div>
+    </div>
+
+    <h1>Pociones y elixires</h1>
+    <div class="item-container">
+        <div class="item-text">
+            <h3>Ayuda a volver a tu realidad cuando esté en el mundo del mar.
+            </h3>
+        </div>
+        <div class="item-image">
+            <img src="elixir.jpg" alt="Elixir">
+        </div>
+    </div>
+
+    <h1>Coleccionables</h1>
+    <div class="item-container">
+        <div class="item-text">
+            <h2>Monedas</h2>
+            <h3>Podrán ser encontradas en lugares secretos del mundo submarino</h3>
+            <h3>Permiten desbloquear canciones y apartados artísticos nuevos</h3>
+        </div>
+        <div class="item-image">
+            <img src="monedas.jpeg" alt="Monedas">
+        </div>
+    </div>
+    <a href="#top" id="scrollUp" class="scrollUp">Inicio ↑</a>
+    <script>
+      
+        var scrollUp = document.getElementById("scrollUp");
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollUp.style.display = "block";
+            } else {
+                scrollUp.style.display = "none";
+            }
+        };
+    </script>
+    <footer>
+        <p>&copy; 2024 Undersea Eating. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

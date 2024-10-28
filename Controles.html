@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <h6>Undersea Eating: Encuesta de Hábitos Alimenticios</h6>
+        <nav>
+            <ul>
+                <li><a href="Index.html" id="enlacemenu">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="controles">
+        <h1>Controles del Juego</h1>
+    <h3>¡Estos controles fueron seleccionados cuidadosamente para ofrecerte la mayor comodidad posible, asegurando que tengas una experiencia de juego fluida y espectacular! 🚀🌊</h3>
+        <h2>★ Movimiento del Personaje</h2>
+        <h4>W, A, S, D:</h4>
+        <h3>Mueve a tu personaje en las cuatro direcciones (arriba, izquierda, abajo, derecha) mientras exploras el mundo submarino.</h3>
+    <img src="caminar.gif" alt="caminando">
+        <h2>★ Interacción con el Entorno</h2>
+        <h2>Enter: </h2>
+        <h3>Interactúa con los NPCs, objetos y elementos del mundo. Descubre secretos del océano y entabla conversaciones con sus habitantes.</h3>
+        <img src="interactuar.gif" alt="interactuando">
+        <h4>Mouse (cursor):</h4>
+       <h3> Usa el mouse para explorar el entorno, ver pistas, y recoger objetos extra o mejoras que te ayudarán en tu aventura.</h3>
+     <img src="interactuar2.gif" alt="interactuando">
+       <h2>★ Selección e Interfaces</h2>
+        <h4>Mouse (cursor): </h4><h3>Navega por los menús e interfaces, selecciona opciones y administra tu inventario. Usa el botón izquierdo para confirmar acciones.</h3>
+    <img src="menu.gif" alt="menu">
+        <h2>★ Alternativa al Mouse </h2>
+        <h4>W y S:</h4> <h3>En la interfaz de charla con NPCs o cualquier otro menú (como el menú principal), puedes usar W para mover el cursor hacia arriba y S para moverlo hacia abajo entre las opciones.</h3>
+        <h4>Enter:</h4> <h3>Selecciona la opción deseada con Enter. Esta funcionalidad también está disponible en todas las interfaces del juego, permitiendo una navegación sin necesidad de usar el mouse.</h3>
+    </section>
+    <a href="#top" id="scrollUp" class="scrollUp">Inicio ↑</a>
+    <script>
+      
+        var scrollUp = document.getElementById("scrollUp");
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollUp.style.display = "block";
+            } else {
+                scrollUp.style.display = "none";
+            }
+        };
+    </script>
+    <footer>
+        <p>&copy; 2024 Undersea Eating. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
